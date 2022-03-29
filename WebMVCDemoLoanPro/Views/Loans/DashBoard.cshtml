@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "DashBoard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer  DashBoard</h2>
+<h3>Welcome @ViewBag.Name</h3>
+
+<button>@Html.ActionLink("Apply Loan","Create","Loans")</button>
+
+<button>@Html.ActionLink("Check Status", "Index", "Loans")</button>
+
+
